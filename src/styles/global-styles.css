@@ -1,0 +1,59 @@
+.Menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.Menu .formPost {
+  background-color: #32425B;
+  border-radius: 0px 25px 25px 0px;
+  box-sizing: border-box;
+  height: 550px;
+  padding: 20px;
+  max-width: 320px;
+  width: 90%;
+  position: relative;
+}
+.Menu .logo {
+  height: 550px;
+  max-width: 320px;
+  width: 90%;
+  background-color: #2EDDD0;
+  position: relative;
+  border-radius: 25px 0px 0px 25px;
+}
+.Menu .logo .image {
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+.Menu .title {
+  color: #eee;
+  font-family: Arial;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menuPeoples {
+  height: 55px;
+  max-width: 100%;
+  width: 100%;
+  background-color: #F1C3D6;
+  position: relative;
+  outline: solid #F1C3D6 10px;
+}
+.menuPeoples .imageMenu {
+  padding: 5px;
+  left: 50px;
+  position: relative;
+}
+.menuPeoples .lastPerson {
+  left: 80%;
+  bottom: 85px;
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(53, 106, 141);
+}
+
+/*# sourceMappingURL=global-styles.css.map */

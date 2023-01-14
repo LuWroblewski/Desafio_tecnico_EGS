@@ -1,0 +1,27 @@
+.textPost {
+  color: #eee;
+  font-family: Arial;
+}
+
+.postPeople {
+  font-family: Arial;
+  background-color: #32425B;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 4px 20px 0;
+  width: 100%;
+  margin-top: 2px;
+  font-size: 15px;
+  color: #eee;
+  border: 1px solid #ffffff;
+  outline: 0px solid #ffffff;
+  border-color: #eee;
+  border-radius: 3px;
+}
+.postPeople::placeholder {
+  font-weight: normal;
+  opacity: 0.5;
+  color: rgb(255, 254, 254);
+}
+
+/*# sourceMappingURL=styles.module.css.map */
