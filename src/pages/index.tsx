@@ -61,7 +61,7 @@ const Menu = () => {
           onChange={(e) => setLastName(e)}
           text={'Sobrenome'}
         />
-        <Post type="date" placeholder={''} value={date} onChange={(e) => setDate(e)} text={'Data: '} />
+        <Post type="date" placeholder={''} value={date} onChange={(e) => setDate(e)} text={'Data de nascimento: '} />
         <Post type="text" placeholder="Email" value={Email} onChange={(e) => setEmail(e)} text={'Email: '} />
         <Post type="text" placeholder="CPF" value={CPF} onChange={(e) => setCPF(e)} text={'CPF: '} />
         <Link href="/allPeoples">
